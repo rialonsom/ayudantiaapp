@@ -1,24 +1,5 @@
-# README
+# Aplicación para la ayudantía CRUD + Routing
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+En `docs` está el pdf del ppt.
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+El ejemplo que usé para toda la ayudantía fue un crud de peliculas con tres atributos (título, año, director).
