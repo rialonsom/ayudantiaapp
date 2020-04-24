@@ -16,5 +16,5 @@
 </p>
 
 <%= link_to 'Editar Película', peliculas_edit_path(@pelicula.id) %>
-<%= link_to 'Eliminar Película', pelicula_path(@pelicula.id), method: :delete, alert: 'Estás seguro?' %>
+<%= link_to 'Eliminar Película', pelicula_path(@pelicula.id), method: :delete, data: { confirm: 'Estás Seguro?' } %>
 <%= link_to 'Lista Películas', peliculas_path %>
