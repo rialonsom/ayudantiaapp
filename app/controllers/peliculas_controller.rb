@@ -41,7 +41,7 @@ class PeliculasController < ApplicationController
     if @pelicula.update(pelicula_params)
       redirect_to pelicula_path(@pelicula.id), notice: 'Película editada con éxito'
     else
-      redirect_to peliculas_new_path, notice: 'Ocurrió un error al editar la película.'
+      redirect_to pelicula_path(@pelicula.id), notice: 'Ocurrió un error al editar la película.'
     end
   end
 
